@@ -1,5 +1,5 @@
 ## rsschool-cv
-********
+
 # Mikalai Mishkavets
 
 ## My Contact Info
@@ -26,7 +26,7 @@ My goal is to learn everything new and exciting.
 * Windows OS, Linux(Ubuntu)
 
 ## Code examples
-********
+
 ```
  function generateShip() {
 		var direction = Math.floor(Math.random() * 2);
@@ -50,7 +50,7 @@ My goal is to learn everything new and exciting.
 	return newShipLocations;
 }
 ```
-********
+
 ## Education
 
 * **Belarusian State Agrotechnical University**
@@ -59,9 +59,9 @@ My goal is to learn everything new and exciting.
 ## Experience
 ********
 * I have little experience in JS and Frontend development.
-********
+
 ## Languages
-********
+
  * Russian
  * English
 	 + EPAM English test result: A0 
