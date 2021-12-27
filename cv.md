@@ -57,7 +57,7 @@ My goal is to learn everything new and exciting.
 		+ Energy Engineer
 
 ## Experience
-********
+
 * I have little experience in JS and Frontend development.
 
 ## Languages
