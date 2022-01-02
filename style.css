@@ -1,55 +1,103 @@
-#wrapper {
-	position: relative;
-	width: 400px;
-	height: 400px;
-	margin: 0 auto;
-	background-color: green;
-	border-radius: 50%;
+body{
+    background-color: black;
 }
 
-.eye1 {
-	position: absolute;
-	top: 70px;
-	left: 80px;
-	width: 80px;
-	height: 80px;
-	background-color: white;
-	border-radius: 50%;
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    /*background-color: rgba(56, 56, 56, 0.5);*/
+    background-color: black;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
-.eye2 {
-	position: absolute;
-	top: 70px;
-	right: 80px;
-	width: 80px;
-	height: 80px;
-	background-color: white;
-	border-radius: 50%;
+.header{
+    
+    margin-bottom: 100px;
 }
-.noise {
-	position: absolute;
-	top: 200px;
-	left: 165px;
-	width: 70px;
-	height: 70px;
-	background-color: white;
-	border-radius: 50%;
+.profile-photo{
+        float: right;
 }
-.mouth1 {
-	position: absolute;
-	top: 155px;
-	left: 100px;
-	width: 200px;
-	height: 200px;
-	background-color: white;
-	border-radius: 50%;
+.pusto{
+    float: none;
+    height: 30px;
 }
-.mouth2 {
-	position: absolute;
-	top: 62px;
-	left: 65px;
-	width: 270px;
-	height: 270px;
-	background-color: green;
-	border-radius: 50%;
+.name{
+    font-size: 30px;
+    text-align: center;
 }
 
+.nav-menu {
+    display: flex;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0 0 10px 0;
+	justify-content: flex-end;
+	align-items: center;
+}
+.main{
+    display: flex;
+    font-size: 25px;
+    background-color: rgba(185, 185, 185, 0.5);
+    color: rgb(0, 191, 255);
+    border-radius: 50px 50px 0px 0px;
+}
+.article{
+    width: 500px;
+    padding: 15px;
+    text-align: justify;
+}
+.aside{
+    width: 500px;
+    padding: 15px;
+}
+.footer{
+    display: flex;
+    height: 100px;
+    background-color: white;
+    border-radius: 0px 0px 50px 50px;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav-item{
+    font-size: 20px;
+}
+.nav-link{
+    display: block;
+	height: 38px;
+	line-height: 38px;
+	padding: 0px 10px;
+}
+a:link.nav-link, a:visited.nav-link {
+	color: white;
+	text-decoration: none;
+	background-color: black;
+}
+a:hover.nav-link {
+	color: rgb(0, 191, 255);
+	background-color: rgba(185, 185, 185, 0.5);;
+    font-weight: bold;
+}
+a:active.nav-link {
+	color:red;
+}
+.section-header{
+    border-bottom: solid 2px white;
+    text-align: center;
+    color: white;
+    
+}
+.code{
+}
+.contacts_ul, .Languages_ul{
+    font-weight: bold;
+}
+.footer-year, .footer-github, .footer-rsschool{
+   padding: 0px 40px;
+}
+.about1{
+    display: none;
+}
