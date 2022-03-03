@@ -125,8 +125,9 @@
  .pre {
      padding: 0;
      margin: 0;
+	 color: black;
      font-size: 15px;
-     text-shadow: 2px 2px 5px #000;
+     
  }
  
  .section-profile-title {
@@ -164,7 +165,7 @@
  
  .section-subtitle {
      margin-top: 25px;
-	 color: blue;
+	 color: orange;
      line-height: 50px;
      font-weight: 300;
      letter-spacing: 2px;
@@ -198,8 +199,8 @@
      margin-bottom: 10px;
      padding: 0;
      padding-left: 30px;
-     color: orange;
-     text-shadow: 2px 2px 4px #000;
+     color: white;
+     text-shadow: 2px 2px 6px #000;
  }
   
  .section-item span {
