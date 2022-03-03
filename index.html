@@ -90,17 +90,17 @@
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
                 <pre class="pre"><code>function strCount(obj){
-        let sum = 0;
-        for (let subder in obj) {
-            if (obj[subder] !== null) {
-                if(typeof(obj[subder]) === 'string') {
-                    sum += 1;
-                }
-                if (typeof(obj[subder]) === 'object'){
-                    um +=  strCount(obj[subder]); 
-                }
-            }
+let sum = 0;
+for (let subder in obj) {
+  if(obj[subder] !== null) {
+    if(typeof(obj[subder]) === 'string'){
+        sum += 1;
         }
+    if(typeof(obj[subder]) === 'object'){
+        um +=  strCount(obj[subder]); 
+        }
+    }
+  }
     return sum;
 }</code></pre>
             </section>
@@ -108,16 +108,16 @@
                 <h2 class="section-title">Courses</h2>
                 <ul class="section-list">
                     <li class="section-item">
-                        Hexlet<span> - JavaScript for beginner</span>
+                        Hexlet<span> - Course completedBasics of modern layout</span>
                     </li>
                     <li class="section-item">
-                        LoftSchool<span> - Comprehensive training JavaScript</span>
+                        Code Basics<span> - HTML, CSS, JavaScript</span>
                     </li>
                     <li class="section-item">
-                        Udemy<span> - Web Development By Doing: HTML / CSS</span>
+                        RS School<span> - JS / FRONT-END. STAGE 0</span>
                     </li>
                     <li class="section-item">
-                        Udemy<span> - React + Redux - Professional Development</span>
+                        RS School<span> - JS / FRONT-END</span>
                     </li>
                 </ul>
             </section>
@@ -125,16 +125,16 @@
                 <h2 class="section-title">Projects</h2>
                 <ul class="section-list">
                     <li class="section-item">
-                        <a href="https://irinainina.github.io/hexal/">Hexal</a>
+                        <a href="https://nikolj.github.io/project/portfolio/">Portfolio</a>
                     </li>
                     <li class="section-item">
-                        <a href="https://irinainina.github.io/presentation/#/">Presentation</a>
+                        <a href="https://nikolj.github.io/project/Audio-Player/">Audio-Player</a>
                     </li>
                     <li class="section-item">
-                        <a href="https://irinainina.github.io/piskel-clone/">Piskel-Clone</a>
+                        <a href="https://nikolj.github.io/project/image-galery/">Image-Galery</a>
                     </li>
                     <li class="section-item">
-                        <a href="https://irinainina-culture-portal.netlify.app/">Culture-Portal</a>
+                        <a href="https://nikolj.github.io/project/random-game/">Battleship</a>
                     </li>
                 </ul>
             </section>
