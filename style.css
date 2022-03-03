@@ -103,7 +103,7 @@
  
  .section-title {
      margin-bottom: 20px;
-     font-size: 20px;
+     font-size: 25px;
      font-weight: 400;
      text-transform: uppercase;
      letter-spacing: 5px;
@@ -126,6 +126,7 @@
  .pre {
      padding: 0;
      margin: 0;
+	 font-size: 16px;
      text-shadow: 2px 2px 5px #000;
  }
  
@@ -143,7 +144,7 @@
      padding: 0;
      margin-bottom: 20px;
      color: #4d2323;
-     font-size: 32px;
+     font-size: 36px;
      font-weight: 300;
      letter-spacing: 10px;
      line-height: 50px;
@@ -163,12 +164,13 @@
  }
  
  .section-subtitle {
-     margin-top: 20px;
-     color: #5c5c5c;
+     margin-top: 25px;
+	 color: blue;
+     /*color: #5c5c5c;*/
      line-height: 50px;
      font-weight: 300;
      letter-spacing: 2px;
-     text-shadow: 2px 2px 2px blue;
+     text-shadow: 2px 2px 2px black;
  }
  
  .section-profile-logo {
