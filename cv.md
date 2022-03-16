@@ -4,7 +4,7 @@
 
 ## My Contact Info
 
-* **Address:** Grunwald 12A st. Brest, Belarus
+* **Address:** Brest, Belarus
 * **Phone:** +375 29 7294141
 * **E-mail:** frededdd@mail.ru
 * **GitHub:** Nikolj
